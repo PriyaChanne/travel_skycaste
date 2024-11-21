@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+textarea, :focus {
+    outline: none;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+button.btn:focus, 
+button.btn:active, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea {
+    resize: none;
+}
+
+/* alex made change */
+.navbar-brand {
+    /* font-family: 'Inter Tight', sans-serif;
+    font-weight: 900;
+    font-style: italic; */
+    font-size: 24px;
+    /* background-color: #227b36; */
+    border-radius: 5px;
+    /* padding-inline: 10px; */
+    /* box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15); */
+    /* border: 1px solid #0c7723; */
+    /* color: white; */
+}
+
+.navbar-brand:hover {
+    color: rgb(213, 213, 213);
+}
+
+.hero img {
+    height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    /* filter: brightness(60%); */
+    border: none !important;
+}
+
+.hero {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    border: none !important;
+}
+
+.card-img-overlay {
+    height: 30vh;
+    border: none !important;
+}
+
+.top-dash {
+    border: 0px solid rgb(0, 0, 0) !important;  
+}
+
+.right-info {
+    text-align: right;
+}
+
+.weather-icon {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    /* background-image: linear-gradient(315deg, #ffffff 0%, #238b3b 74%); */
+    /* background-image: linear-gradient(315deg, #c4c1c1 0%, #043510 74%); */
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    /* background-image: radial-gradient(circle, #d16ba5, #bf75b4, #ac7fbd, #9a87c1, #8b8ec0, #7d91bf, #7093bc, #6795b7, #5396b2, #4296aa, #37969e, #36958f); */
+    /* background-image: radial-gradient(circle, #d16ba5, #bf75b4, #ac7fbd, #9a87c1, #8b8ec0, #7d91bf, #7093bc, #6795b7, #5396b2, #4296aa, #37969e, #36958f); */
+    /* background-image: linear-gradient(to right top, #9f4c9a, #9768b7, #8d81ce, #8498df, #80aeeb); */
+    background-image: linear-gradient(to right, #1f9fa5, #5eb3b9, #8bc7cd, #b4dbe0, #dbf0f3);
+    color: black;
+}
+
+.dark-theme {
+    background-color: #090947;
+    background-image: linear-gradient(315deg, #094724 0%, #2f2f2f 74%);    
+    color: white;
+}
+
+#cityInput {
+    border: 1px solid rgb(255, 255, 255);  
+}
+
+.time-input {
+    padding: 2%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.time-input:focus {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.saveButton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(0, 76, 255, 1);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.saveButton:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(0, 30, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.booking-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(0, 76, 255, 1);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2.5%;
+    border-radius: 5px;
+}
+
+.booking-link:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(0, 30, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.day-border {
+    border-top: 1px dotted black !important;
+}
+
+#loading-modal .modal-content {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+
+.carousel-box {
+    padding: 10px;
+
+}
+
+.attraction-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Carousel Buttons */
+.carousel-control-next, .carousel-control-prev {
+    margin-inline: -7% !important;
+}
+
+/* Widescreen Layout Adjustment */
+@media screen and (min-width: 1200px) {
+    .page {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
